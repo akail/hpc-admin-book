@@ -1,0 +1,70 @@
+site_name: HPC Administrators Handbook
+site_url: https://hpcbook.io
+dev_addr: localhost:9000
+
+theme:
+  name: material
+  palette:
+    primary: "blue grey"
+  features:
+    - navigation.indexes
+    - content.code.annotate 
+
+nav:
+  - Home: index.md
+  - Introduction:
+    - introduction/index.md
+    - History: introduction/history.md
+    - How To: introduction/howto.md
+  - Hardware:
+    - hardware/index.md
+    - Processors: hardware/processors.md
+    - Accelerators: hardware/accelerators.md
+    - Motherboard: hardware/motherboard.md
+    - Storage: hardware/storage.md
+    - Racks: hardware/racks.md
+    - Power: hardware/power.md
+    - Cooling: hardware/cooling.md
+    - Bottlenecks: hardware/bottlenecks.md
+    - Composable Infrastructure: hardware/composable.md
+  - Networking:
+    - networking/index.md
+    - Topologies: networking/topologies.md
+    - Interconnects: networking/interconnects.md
+    - DNS: networking/dns.md
+    - Bonding: networking/bonding.md
+  - Storage:
+    - storage/index.md
+    - Filesystems: storage/filesystems.md
+    - Multipath: storage/multipath.md
+    - Filesystems: storage/filesystems.md
+    - Filesystems: storage/filesystems.md
+    - Filesystems: storage/filesystems.md
+  - Provisioning: provisioning.md
+  - Monitoring: 
+    - monitoring/index.md
+    - Databases: monitoring/databases.md
+    - Collectors: monitoring/collectors.md
+    - Dashboards: monitoring/dashboards.md
+  - Documentation: documentation.md
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - tables
+
+plugins:
+  - search
