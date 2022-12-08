@@ -1,1 +1,0 @@
-*[HPC]: High Performance Computing

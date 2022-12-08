@@ -1,13 +1,22 @@
-# Welcome to MkDocs
+# HPC Administrators Handbook
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+* Insert some image as the logo
 
-## About
+## Why put this together?
 
-During the last several years leading and managing a HPC organization with a diverse array of clients, I have found that there were many educational resources lacking in the HPC operational space.  There are multiple resources for scientists and researchers to get started with developing scientific software including youtube videos, conference courses, and The Art of HPC.  
+During the last several years leading and managing a HPC organization with a diverse array of clients, I have found that there were many educational resources lacking in the HPC operational space.  There are multiple resources for scientists and researchers to get started with developing scientific software including youtube videos, conference courses, and The Art of HPC.  There are many fantastic lectures, video series, and slide presentations I have found through SC, LCI, and various LCF publications.  I have yet to find a book which distills HPC Operations into a single book
 
-I have found that when it comes to operating and administering a cluster, there is very little.  Much of the knowledge and experience gained has been through experience at large HPC facilities such as the Leadership Compute Facilities or Universities.  Some of the questions I have had are difficult to find documented.  Things such as what are good security practices on a cluster?  A largely ignored question as most small clusters are completely lacking any security standards.
+## Audience
 
-There is also a perception that operations is just Linux systems administration with new applications.  While there is an immense amount of overlap, there are a lot of things left which admins have found difficult to understand in the transistion
+This documentation is not aimed at the experienced HPC engineer with 20 years of experience, or who works at a leadership class compute facility with large support from HPC Vendors.
+This has been written with the intent to train new HPC engineers at my company who have either come straight out of college, or are switching from an enterprise IT career.  I also hope this will
+benefit those graduate students or professors who need to run a small cluster at their university but don't know where to start, even if they are provided a turnkey solution.
 
-This book is not aimed at those who work at entrenched HPC facilities with teams with decades of experience.  This is aimed at startup HPC teams, small one man university clusters, or for those who want to transition to HPC from another career field. I started writing this book as an onboarding tool and reference to help interns and associate engineers develop better HPC skills.
+That being said, I hope
+
+
+## The Goal
+
+My ultimate goal in writing this is to get our hands dirty spinning up a local HPC cluster and various components.:wa
+
+

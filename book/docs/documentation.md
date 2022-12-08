@@ -1,12 +1,13 @@
 mkdocs is great!
 
-# Admin Documentation
+## Admin Documentation
 
 * Media wiki
 * wiki.js
 
+## Inventory management
 
-# User Documentation
+## User Documentation
 
 Mkdocs is a great tool
 

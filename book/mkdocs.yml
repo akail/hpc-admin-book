@@ -26,6 +26,7 @@ nav:
     - Power: hardware/power.md
     - Cooling: hardware/cooling.md
     - Bottlenecks: hardware/bottlenecks.md
+    - Network Cables: hardware/network_cabling.md
     - Composable Infrastructure: hardware/composable.md
   - Networking:
     - networking/index.md
@@ -37,16 +38,55 @@ nav:
     - storage/index.md
     - Filesystems: storage/filesystems.md
     - Multipath: storage/multipath.md
-    - Filesystems: storage/filesystems.md
-    - Filesystems: storage/filesystems.md
-    - Filesystems: storage/filesystems.md
-  - Provisioning: provisioning.md
+    - Parallel Filesystems: storage/parallel_filesystems.md
+    - Scratch: storage/scratch.md
+    - Quoata Management: storage/quotas.md
+  - Provisioning:
+    - provisioning/index.md
+    - Warewulf: provisioning/warewulf.md
+    - Grendel: provisioning/grendel.md
+    - Cobbler: provisioning/cobbler.md
+    - XCat: provisioning/xcat.md
+  - Cloud:
+    - cloud/index.md
+    - AWS: cloud/aws.md
+    - Azure: cloud/azure.md
+  - Job Scheduling:
+    - schedulers/index.md
+    - Slurm: schedulers/slurm.md
+    - OpenTorque: schedulers/torque.md
+    - OpenLava: schedulers/openlava.md
+    - HTCondor: schedulers/htcondor.md
+    - Kubernetes: schedulers/k8s.md
+    - Munge: schedulers/munge.md
+  - Applications:
+    - apps/index.md
+    - Helper Tools: apps/helpers.md
+    - Cuda: apps/cuda.md
+    - Anaconda: apps/conda.md
+    - Containers: apps/containers.md
+    - Modules: apps/modules.md
+    - MPI: apps/mpi.md
+    - OpenMP: apps/openmp.md
+  - Benchmarking:
+    - benchmark/index.md
+    - CPU: benchmark/cpu.md
+    - MPI: benchmark/mpi.md
+    - Storage: benchmark/storage.md
+    - GPU: benchmark/gpu.md
+    - Top Lists: benchmark/top.md
+  - Devops:
+    - devops/index.md
   - Monitoring: 
     - monitoring/index.md
     - Databases: monitoring/databases.md
     - Collectors: monitoring/collectors.md
+    - Node Health Check: monitoring/nhc.md
     - Dashboards: monitoring/dashboards.md
+  - Acceptance Testing:
+    - acceptance/index.md
   - Documentation: documentation.md
+  - References: references.md
 
 markdown_extensions:
   - admonition
