@@ -1,5 +1,5 @@
 site_name: HPC Administrators Handbook
-site_url: https://hpcbook.io
+site_url: https://hpc.kail.io
 dev_addr: localhost:9000
 
 theme:
@@ -8,7 +8,7 @@ theme:
     primary: "blue grey"
   features:
     - navigation.indexes
-    - content.code.annotate 
+    - content.code.annotate
 
 nav:
   - Home: index.md
@@ -77,7 +77,7 @@ nav:
     - Top Lists: benchmark/top.md
   - Devops:
     - devops/index.md
-  - Monitoring: 
+  - Monitoring:
     - monitoring/index.md
     - Databases: monitoring/databases.md
     - Collectors: monitoring/collectors.md
